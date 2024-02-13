@@ -1,0 +1,226 @@
+
+body{
+    background:#c6d1e9;
+  }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      float: right;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #f7b023;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    #land{
+      float: left;
+    }
+    li button img{
+      width: 35px;
+      height: 38px;
+    }
+    a img{
+      width: 35px;
+      height: 42px;
+    }
+    .about{
+      text-align: left;
+      background: rgb(241, 231, 214);
+      height: 300px;
+    }
+    .photo{
+      float: right
+    }
+    #list{
+      background: #fbfbfc;
+      float: left;
+      width: 890px;
+    }
+    .groupimg{
+      background-image: url("background.jpg");
+      height: 500px;
+    }
+    .detail{
+      float:right
+    }
+    #number{
+      text-align: center;
+    }
+    .button {
+      background-color: #dd1111;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      float: right;
+    }
+
+    .button1 {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #dd1111;
+    }
+
+    .button1:hover {
+      background-color: #dd1111;
+      color: white;
+    }
+    .img1{
+      height: 330px;
+      width: 1503px;
+    }
+    .our{
+      background: #c6d1e9;
+      box-sizing: border-box;
+    }
+      
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+      
+    .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+      
+    @media screen and (max-width: 650px) {
+    .column {
+          width: 100%;
+          display: block;
+        }
+    }
+      
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+      
+    .containerr {
+        padding: 0 16px;
+    }
+      
+    .containerr::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+      
+    .title {
+        color: grey;
+    }
+      
+    .buttonn {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+      
+    .buttonn:hover {
+        background-color: #555;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+    }
+      
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+      
+    .container .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        text-align: center;
+    }
+      
+    .container .btn:hover {
+        background-color: black;
+    }
+      
